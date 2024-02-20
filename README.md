@@ -53,6 +53,9 @@ Observvação: Ao clicar no botão vermelho com "+", abrirá uma modal para adic
 
 Observação: Todas as ações avisam o usuário do sucesso ou erro. 
 
+## EVIDÊNCIAS | OS MINDS PODE SER MOVIDO PELO USUÁRIO
+![Captura de tela 2024-02-20 164945](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/19eb72c3-2654-4c85-ac10-8ee65300e666)
+
 ## SISTEMA AINDA EM CONSTRUÇÃO | A FAZER
 
 ## 1.REGISTRO
