@@ -30,3 +30,32 @@ Instale as dependências: npm install
 Inicie o servidor de desenvolvimento: ng serve
 Abra o navegador e acesse http://localhost:4200/
 Lembre-se de configurar a API conforme as instruções acima antes de usar o MindFlow.
+
+## EVIDÊNCIAS | CARDS
+![Captura de tela 2024-02-20 162100](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/adfa6ae6-b0ce-446c-9a67-6069853a97b3)
+
+![Captura de tela 2024-02-20 161905](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/ca10a519-5959-44aa-b053-8b5569d538af)
+
+Observvação: Quando o "card" está a fazer, o icon de config fica girando. Situações: A fazer e Concluida
+
+## EVIDÊNCIAS | MODAL(ADICIONAR) COM VALIDAÇÃO
+
+![Captura de tela 2024-02-20 161843](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/0d2baa26-7fa0-4c41-b976-c853dbc3173b)
+![Captura de tela 2024-02-20 161938](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/61fe3dfa-fe24-434c-a601-678cf61bc2fc)
+![Captura de tela 2024-02-20 161957](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/a951b4c5-21e4-42ea-bd36-2fa9c4cf10ae)
+
+Observvação: Ao clicar no botão vermelho com "+", abrirá uma modal para adicionar um "MindFlow", validação aplicada.
+
+## EVIDÊNCIAS | MENSAGENS A RESPEITO DE CADA AÇÃO DENTRO DO SISTEMA COM "SNACKBAR"
+
+![Captura de tela 2024-02-20 162115](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/37f5aa93-b46f-465e-b6ae-1913de829e6e)
+![Captura de tela 2024-02-20 162043](https://github.com/viniciusotorres/mind-flow-novo/assets/117120838/5ad454ac-350f-4abb-bda5-cf53c9a5e53d)
+
+Observação: Todas as ações avisam o usuário do sucesso ou erro. 
+
+## SISTEMA AINDA EM CONSTRUÇÃO | A FAZER
+
+## 1.REGISTRO
+## 2.LOGIN E LOGOUT 
+## 3.SISTEMA DE PREMIAÇÃO E PONTOS
+## 4.PERFIL DO USUÁRIO
