@@ -1,27 +1,32 @@
-# MindFlowNovo
+## MindFlow 2.0
+Este projeto foi gerado com o Angular CLI na versão 17.1.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Servidor de Desenvolvimento
+Execute "ng serve" para iniciar o servidor de desenvolvimento. Acesse "http://localhost:4200/" no navegador. A aplicação será recarregada automaticamente se você modificar algum dos arquivos de origem.
 
-## Development server
+## Configuração da API
+O MindFlow 2.0 consome dados de uma API. Certifique-se de inicializar o servidor da API antes de usar o MindFlow. Siga as instruções abaixo:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Instale o JSON Server: Execute "npm install -g json-server" para instalar globalmente o servidor JSON.
 
-## Code scaffolding
+Inicie a API: Navegue até a pasta do projeto e execute "json-server --watch db.json" para iniciar a API. Certifique-se de que o arquivo db.json esteja presente no diretório.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Bem-vindo ao MindFlow 2.0!
+O MindFlow é um sistema robusto de organização de tarefas projetado para otimizar sua produtividade. Ao se registrar e fazer login, você terá acesso a uma plataforma intuitiva que transformará a maneira como você gerencia suas atividades diárias.
 
-## Build
+## Principais Recursos:
+MindFlow Principal: Na página principal, você encontrará uma explicação abrangente do MindFlow, proporcionando uma visão geral de seus recursos e benefícios.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Barra Superior de Navegação: A barra superior permite que você acesse facilmente todas as páginas do sistema, oferecendo uma navegação eficiente.
 
-## Running unit tests
+MindFlow: Acesse a página MindFlow para adicionar, editar, estender, concluir, reiniciar ou excluir tarefas. Personalize suas atividades de acordo com suas necessidades.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Simplifique sua vida, aumente sua eficiência - MindFlow 2.0 está aqui para transformar a maneira como você gerencia suas tarefas!
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Como Iniciar
+Clone o repositório: git clone https://github.com/viniciusotorres/mind-flow-novo.git
+Navegue até o diretório: cd mindflow
+Instale as dependências: npm install
+Inicie o servidor de desenvolvimento: ng serve
+Abra o navegador e acesse http://localhost:4200/
+Lembre-se de configurar a API conforme as instruções acima antes de usar o MindFlow.
