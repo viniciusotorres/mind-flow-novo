@@ -1,0 +1,16 @@
+{
+  "atividadesMind": [
+    {
+      "id": "c7a6",
+      "atividadeMind": "Casar",
+      "descricaoMind": "Trabalho da faculdade",
+      "situacao": "A fazer"
+    },
+    {
+      "id": "ff78",
+      "atividadeMind": "Malhar",
+      "descricaoMind": "Pernas",
+      "situacao": "A fazer"
+    }
+  ]
+}

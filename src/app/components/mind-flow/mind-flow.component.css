@@ -1,0 +1,52 @@
+.botao {
+  margin-left: 48%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.box{
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  height: 25%;
+
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+.menu-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 8px;
+}
+
+
+@media (min-width: 600px) {
+  .cards-container {
+
+
+grid-template-columns: repeat(3, 1fr); /* Altere para o número desejado de cartões por linha */
+  }
+
+.formulario {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+
+
+}
+
+.titulo {
+  text-align: center;
+}
+
+}

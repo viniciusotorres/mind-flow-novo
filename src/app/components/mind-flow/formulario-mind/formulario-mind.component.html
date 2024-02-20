@@ -1,0 +1,43 @@
+<div class="formulario">
+  <h2 mat-dialog-title><b>MindFlow</b></h2>
+  <mat-dialog-content>
+    <mat-form-field>
+      <mat-label>Seu MindFlow</mat-label>
+      <input
+        type="text"
+        matInput
+        [formControl]="atividadeMind"
+        placeholder="Atividade"
+        name="atividadeMind"
+      />
+      @if (atividadeMind.hasError('required')) {
+      <mat-error
+        >É necessário colocar uma atividade.
+        <strong>Obrigatório!</strong></mat-error
+      >
+      }
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Descreva seu MindFlow</mat-label>
+      <input
+        type="text"
+        matInput
+        [formControl]="descricaoMind"
+        placeholder="Descrição"
+        name="descricaoMind"
+      />
+      @if (atividadeMind.hasError('required')) {
+      <mat-error
+        >É necessário colocar uma descrição.
+        <strong>Obrigatório!</strong></mat-error
+      >
+      }
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button class="botao" mat-button mat-dialog-close>Cancelar</button>
+    <button class="botao" mat-button mat-dialog-close (click)="adicionarMindFlow()">
+      Adicionar
+    </button>
+  </mat-dialog-actions>
+</div>
